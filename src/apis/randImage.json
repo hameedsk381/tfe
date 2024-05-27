@@ -1,0 +1,35 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "url": "https://cdn.pixabay.com/photo/2020/08/14/17/13/light-bulbs-5488573_960_720.jpg",
+        "description": "A beautiful sunset over the mountains."
+      },
+      {
+        "id": 2,
+        "url": "https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_960_720.jpg",
+        "description": "A serene beach with crystal clear water."
+      },
+      {
+        "id": 3,
+        "url": "https://cdn.pixabay.com/photo/2019/03/18/13/40/eye-4063134_960_720.jpg",
+        "description": "A bustling city skyline at night."
+      },
+      {
+        "id": 4,
+        "url": "https://images.pexels.com/photos/33930/pexels-photo.jpg",
+        "description": "A close-up of a colorful butterfly on a flower."
+      },
+      {
+        "id": 5,
+        "url": "https://images.pexels.com/photos/64609/pexels-photo-64609.jpeg",
+        "description": "A snowy mountain peak under a clear blue sky."
+      },
+      {
+        "id": 6,
+        "url": "https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg",
+        "description": "A peaceful forest trail surrounded by tall trees."
+      }
+    ]
+  }
+  
