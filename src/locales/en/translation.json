@@ -1,46 +1,45 @@
 {
-    "header": {
-      "title": "Technology for all ",
-      "home": "Home",
-      "services": "Services",
-      "testimonials": "Testimonials",
-      "contact": "Contact"
-    },
-    "hero": {
-      "title": "Tech Assistance Made Simple",
-      "subtitle": "Empowering everyone to thrive in the digital age",
-      "button": "Start Your Journey"
-    },
-    "about": {
-      "title": "Our Mission",
-      "description": "We aim to make technology accessible to everyone. We believe in the importance of digital literacy and are committed to providing patient, personalized assistance to those who need it."
-    },
-    "services": {
-      "title": "Our Services",
-      "service1": "Tech Setup: Setting up devices like smartphones, computers, and smart home gadgets.",
-      "service2": "Troubleshooting: Solving common tech issues and errors.",
-      "service3": "Learning Sessions: One-on-one or group sessions to teach basic tech skills.",
-      "service4": "Online Safety: Guidance on staying safe online, including managing passwords and recognizing scams."
-    },
-    "howItWorks": {
-      "title": "How It Works",
-      "step1": "Contact Us: Reach out via phone, email, or our online form.",
-      "step2": "Schedule a Session: Choose a convenient time for your tech help session.",
-      "step3": "Get Assistance: Receive personalized help from our friendly experts.",
-      "step4": "Follow Up: We follow up to ensure your tech issues are resolved and you're satisfied."
-    },
-    "testimonials": {
-      "title": "What Our Clients Say",
-      "quote1": "I never thought I could use my smartphone so confidently until I got help from Tech Assistance for Everyone."
-    },
-    "footer": {
-      "title": "Contact",
-      "phone": "Phone",
-      "email": "Email",
-      "address": "Address",
-      "name": "Name",
-      "message": "Message",
-      "submit": "Send Message"
-    }
+  "header": {
+    "title": "Inclusive Tech Solutions for All",
+    "home": "Home",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Empowering Traditional Professions",
+    "subtitle": "Building markets and inclusivity for the working class",
+    "button": "Join Our Mission"
+  },
+  "about": {
+    "title": "Our Mission",
+    "description": "We create tech solutions that truly serve the working class. Our focus is on building apps that provide markets for vulnerable traditional professions and make them inclusive. We believe in technology that empowers everyone, not just the corporates."
+  },
+  "services": {
+    "title": "Our Services",
+    "service1": "Market Access: Providing digital platforms for traditional professions.",
+    "service2": "Support & Training: Offering technical support and training for digital tools.",
+    "service3": "Community Building: Connecting professionals and fostering community growth.",
+    "service4": "Advocacy: Promoting the rights and interests of traditional professions."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": "Contact Us: Reach out via phone, email, or our online form.",
+    "step2": "Schedule a Session: Choose a convenient time for your tech help session.",
+    "step3": "Get Assistance: Receive personalized help from our friendly experts.",
+    "step4": "Follow Up: We follow up to ensure your tech issues are resolved and you're satisfied."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "quote1": "This service has transformed my small business by connecting me to new customers and opportunities."
+  },
+  "footer": {
+    "title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "name": "Name",
+    "message": "Message",
+    "submit": "Send Message"
   }
-  
+}

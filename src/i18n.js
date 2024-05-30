@@ -6,6 +6,7 @@ import enTranslation from './locales/en/translation.json';
 import hiTranslation from './locales/hi/translation.json';
 import taTranslation from './locales/ta/translation.json';
 import teTranslation from './locales/te/translation.json';
+import knTranslation from './locales/kn/translation.json';
 // i18n configuration
 i18n
   .use(initReactI18next)
@@ -21,6 +22,8 @@ i18n
         translation: taTranslation,
       }, te: {
         translation: teTranslation,
+      },kn: {
+        translation: knTranslation,
       },
     },
     lng: 'en', // Default language
