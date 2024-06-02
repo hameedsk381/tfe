@@ -20,7 +20,7 @@ const SubmitForm = () => {
   useEffect(() => {
     const fetchForm = async () => {
       try {
-        const { data } = await axios.get(`${serverUrl}/api/forms/${id}`);
+        const { data } = await axios.get(`${serverUrl}/forms/${id}`);
         setForm(data);
       } catch (err) {
         console.error(err);
