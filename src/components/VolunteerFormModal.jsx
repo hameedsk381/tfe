@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Box, Button, Modal, TextField, Typography, MenuItem, Checkbox, FormControlLabel } from '@mui/material';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
@@ -31,7 +31,7 @@ const validationSchema = Yup.object({
 const VolunteerFormModal = ({ open, handleClose }) => {
   const { t } = useTranslation();
   const showSnackbar = useSnackbar();
-
+const [loading,setLoading] = useState(false);
   const genderOptions = [
     { value: 'male', label: t('gender.male') },
     { value: 'female', label: t('gender.female') },
@@ -76,18 +76,22 @@ const VolunteerFormModal = ({ open, handleClose }) => {
  
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
+      setLoading(true);
       const response = await axios.post(`${serverUrl}/volunteer`, values);
       showSnackbar('Registration successful!', 'success');
       setSubmitting(false);
+      setLoading(false);
       handleClose();
     } catch (error) {
       if (error.response && error.response.status === 409) {
         showSnackbar('You have already registered as volunteer', 'error');
+        
       } else {
         showSnackbar('There was an error submitting the form. Try again.', 'error');
       }
       setSubmitting(false);
-      console.log(error);
+      setLoading(false);
+    
     }
   };
 
