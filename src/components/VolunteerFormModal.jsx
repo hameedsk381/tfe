@@ -44,7 +44,7 @@ const VolunteerFormModal = ({ open, handleClose }) => {
 
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
-        await axiosInstance.post('/volunteer', values);
+        await axiosInstance.post('api/volunteer', values);
       showSnackbar('Registration successful!', 'success');
       setSubmitting(false);
       handleClose();
