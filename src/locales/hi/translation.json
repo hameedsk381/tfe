@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "सभी के लिए समावेशी तकनीकी समाधान",
+    "title": "Technology for All",
     "home": "मुखपृष्ठ",
     "services": "सेवाएं",
     "testimonials": "प्रशंसापत्र",
@@ -95,6 +95,16 @@
       "uttar_pradesh": "उत्तर प्रदेश",
       "uttarakhand": "उत्तराखंड",
       "west_bengal": "पश्चिम बंगाल"
+    }
+  },"suggestion": {
+    "form": {
+      "title": "एक सुझाव प्रस्तुत करें",
+      "name": "नाम",
+      "profession": "व्यवसाय",
+      "reason": "सुझाव के लिए कारण",
+      "submit": "प्रस्तुत",
+      "open_button": "सुझाव फॉर्म खोलें",
+      "add_profession": "व्यवसाय जोड़ें"
     }
   }
 }

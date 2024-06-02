@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import Volunteer from './Volunteer';
+import SuggestionFormButton from './SuggestionFormButton';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -32,6 +33,7 @@ const Hero = () => {
         </Button> */}
       </Container>
       <Volunteer/>
+      <SuggestionFormButton/>
     </Box>
   );
 };

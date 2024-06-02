@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "ప్రతి ఒక్కరికీ సమగ్ర సాంకేతిక పరిష్కారాలు",
+    "title": "Technology for All",
     "home": "హోమ్",
     "services": "సేవలు",
     "testimonials": "సాక్ష్యాలు",
@@ -95,6 +95,16 @@
       "uttar_pradesh": "ఉత్తర ప్రదేశ్",
       "uttarakhand": "ఉత్తరాఖండ్",
       "west_bengal": "పశ్చిమ బెంగాల్"
+    }
+  },"suggestion": {
+    "form": {
+      "title": "ఒక సూచన సమర్పించండి",
+      "name": "పేరు",
+      "profession": "వృత్తి",
+      "reason": "సూచనకు కారణం",
+      "submit": "సమర్పించండి",
+      "open_button": "సూచన ఫారమ్ తెరవండి",
+      "add_profession": "వృత్తి జోడించండి"
     }
   }
 }

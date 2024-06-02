@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "ಎಲ್ಲರಿಗೂ ಸಮಗ್ರ ತಂತ್ರಜ್ಞಾನ ಪರಿಹಾರಗಳು",
+    "title": "Technology for All",
     "home": "ಮುಖಪುಟ",
     "services": "ಸೇವೆಗಳು",
     "testimonials": "ಪ್ರಶಂಸಾಪತ್ರಗಳು",
@@ -95,6 +95,16 @@
       "uttar_pradesh": "ಉತ್ತರ ಪ್ರದೇಶ",
       "uttarakhand": "ಉತ್ತರಾಖಂಡ್",
       "west_bengal": "ಪಶ್ಚಿಮ ಬಂಗಾಳ"
+    }
+  }, "suggestion": {
+    "form": {
+      "title": "ಸೂಚನೆ ಸಲ್ಲಿಸಿ",
+      "name": "ಹೆಸರು",
+      "profession": "ವೃತ್ತಿ",
+      "reason": "ಸೂಚನೆಗೆ ಕಾರಣ",
+      "submit": "ಸಲ್ಲಿಸು",
+      "open_button": "ಸೂಚನೆ ಫಾರ್ಮ್ ಅನ್ನು ತೆರೆ",
+      "add_profession": "ವೃತ್ತಿ ಸೇರಿಸಿ"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "ஒவ்வொருவருக்கும் தொழில்நுட்ப உதவி",
+    "title": "Technology for All",
     "home": "முகப்பு",
     "services": "சேவைகள்",
     "testimonials": "சான்றுகள்",
@@ -95,6 +95,17 @@
       "uttar_pradesh": "உத்தரப் பிரதேசம்",
       "uttarakhand": "உத்தரகாண்ட்",
       "west_bengal": "மேற்கு வங்காளம்"
+    }
+    
+  },"suggestion": {
+    "form": {
+      "title": "ஒரு பரிந்துரை சமர்ப்பிக்கவும்",
+      "name": "பெயர்",
+      "profession": "தொழில்",
+      "reason": "பரிந்துரை செய்ய காரணம்",
+      "submit": "சமர்ப்பிக்கவும்",
+      "open_button": "பரிந்துரை படிவத்தை திறக்கவும்",
+      "add_profession": "தொழிலை சேர்க்கவும்"
     }
   }
 

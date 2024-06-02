@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Inclusive Tech Solutions for All",
+    "title": "Technology for All",
     "home": "Home",
     "services": "Services",
     "testimonials": "Testimonials",
@@ -95,6 +95,16 @@
       "uttar_pradesh": "Uttar Pradesh",
       "uttarakhand": "Uttarakhand",
       "west_bengal": "West Bengal"
+    }
+  }, "suggestion": {
+    "form": {
+      "title": "Submit a Suggestion",
+      "name": "Name",
+      "profession": "Profession",
+      "reason": "Reason for Suggestion",
+      "submit": "Submit",
+      "open_button": "Open Suggestion Form",
+      "add_profession": "Add Profession"
     }
   }
 }
