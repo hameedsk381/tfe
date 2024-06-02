@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, Modal, TextField, Typography, MenuItem, Checkbox, FormControlLabel } from '@mui/material';
+import { Box, Button, Modal, TextField, Typography, MenuItem, Checkbox, FormControlLabel, CircularProgress } from '@mui/material';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { useTranslation } from 'react-i18next';
@@ -213,7 +213,7 @@ const [loading,setLoading] = useState(false);
                 </Typography>
               )}
               <Button type="submit" variant="contained" color="primary" fullWidth sx={{ mt: 2 }}>
-                {t('register.form.submit')}
+                {loading ? <CircularProgress sx={{m:'auto'}}/> : t('register.form.submit')}
               </Button>
             </Form>
           )}
