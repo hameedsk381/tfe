@@ -10,7 +10,9 @@ import {
   IconButton,
 } from '@mui/material';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-import axios from '../apis/axios';
+import axios from 'axios';
+import { serverUrl } from '../apis/apis';
+
 
 const CreateForm = () => {
   const [form, setForm] = useState({
@@ -36,7 +38,7 @@ const CreateForm = () => {
 
   const handleSubmit = async () => {
     try {
-      await axios.post('/forms/create', form);
+      await axios.post(`${serverUrl}/forms/create`, form);
     } catch (err) {
       console.error(err);
     }
