@@ -12,7 +12,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: { xs: '90%', sm: 400 }, // Responsive width
   bgcolor: 'background.paper',
   boxShadow: 24,
   p: 4,
@@ -31,7 +31,7 @@ const validationSchema = Yup.object({
 const VolunteerFormModal = ({ open, handleClose }) => {
   const { t } = useTranslation();
   const showSnackbar = useSnackbar();
-const [loading,setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   const genderOptions = [
     { value: 'male', label: t('gender.male') },
     { value: 'female', label: t('gender.female') },
