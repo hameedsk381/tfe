@@ -9,7 +9,8 @@ import {
   Typography,
   Box,
 } from '@mui/material';
-import axios from '../apis/axios';
+import axios from 'axios';
+import { serverUrl } from '../apis/apis';
 
 const SubmitForm = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const SubmitForm = () => {
   useEffect(() => {
     const fetchForm = async () => {
       try {
-        const { data } = await axios.get(`/forms/${id}`);
+        const { data } = await axios.get(`${serverUrl}/api/forms/${id}`);
         setForm(data);
       } catch (err) {
         console.error(err);
