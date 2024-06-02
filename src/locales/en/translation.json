@@ -104,7 +104,8 @@
       "reason": "Reason for Suggestion",
       "submit": "Submit",
       "open_button": "Open Suggestion Form",
-      "add_profession": "Add Profession"
+      "add_profession": "Add Profession",
+      "description": "We are seeking your suggestions for traditional professions that are most affected by technology. Please consider factors such as gender, region, caste, and class when listing the professions."
     }
   }
 }

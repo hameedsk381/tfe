@@ -14,7 +14,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 'auto',
+  width: '100%',
   maxWidth: '90%',
   bgcolor: 'background.paper',
   boxShadow: 24,
@@ -54,8 +54,11 @@ const SuggestionForm = ({ open, handleClose }) => {
       aria-describedby="modal-description"
     >
       <Box sx={style}>
-        <Typography id="modal-title" variant="h6" component="h2">
+        <Typography textAlign={'center'} mb={2} id="modal-title" variant="h4" component="h1" sx={{ fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem', lg: '3rem' } }}>
           {t('suggestion.form.title')}
+        </Typography>
+        <Typography color={'CaptionText'} variant="body1" fontFamily={'sans-serif'} fontWeight={'bold'} sx={{ mb: 2 }}>
+          {t('suggestion.form.description')}
         </Typography>
         <Formik
           initialValues={{
@@ -126,7 +129,7 @@ const SuggestionForm = ({ open, handleClose }) => {
                 error={touched.reason && !!errors.reason}
                 helperText={touched.reason && errors.reason}
               />
-              <Button size='small' type="submit" variant="contained" color="primary" fullWidth sx={{ mt: 2 }} disabled={loading}>
+              <Button size='medium'  type="submit" variant="contained" color="primary"  sx={{ mt: 2 }} disabled={loading}>
                 {loading ? <CircularProgress size={24} /> : t('suggestion.form.submit')}
               </Button>
             </Form>
