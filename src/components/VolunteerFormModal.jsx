@@ -49,7 +49,7 @@ const VolunteerFormModal = ({ open, handleClose }) => {
       handleClose();
     } catch (error) {
       if (error.response && error.response.status === 409) {
-        showSnackbar('This volunteer already exists.', 'error');
+        showSnackbar('You have already registered as volunteer', 'error');
       } else {
         showSnackbar('There was an error submitting the form. Try again.', 'error');
       }
