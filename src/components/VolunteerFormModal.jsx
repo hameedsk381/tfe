@@ -43,14 +43,18 @@ const VolunteerFormModal = ({ open, handleClose }) => {
 
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
-        await axios.post(`${serverUrl}/volunteer`, values);
+      const response = await axios.post(`${serverUrl}/volunteer`, values);
       showSnackbar('Registration successful!', 'success');
       setSubmitting(false);
       handleClose();
     } catch (error) {
-      showSnackbar('There was an error submitting the form. Try again ', 'error');
+      if (error.response && error.response.status === 409) {
+        showSnackbar('This volunteer already exists.', 'error');
+      } else {
+        showSnackbar('There was an error submitting the form. Try again.', 'error');
+      }
       setSubmitting(false);
-      console.log(error)
+      console.log(error);
     }
   };
 
