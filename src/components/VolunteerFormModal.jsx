@@ -19,12 +19,14 @@ const style = {
 };
 
 const validationSchema = Yup.object({
-  name: Yup.string().required('Name is required'),
-  place: Yup.string().required('Place is required'),
-  profession: Yup.string().required('Profession is required'),
-  gender: Yup.string().required('Gender is required'),
-  consent: Yup.bool().oneOf([true], 'Consent is required'),
-});
+    name: Yup.string().required('Name is required'),
+    place: Yup.string().required('Place is required'),
+    profession: Yup.string().required('Profession is required'),
+    gender: Yup.string().required('Gender is required'),
+    consent: Yup.bool().oneOf([true], 'Consent is required'),
+    contribution: Yup.string().required('Contribution description is required')
+  });
+ 
 
 const VolunteerFormModal = ({ open, handleClose }) => {
   const { t } = useTranslation();
@@ -40,7 +42,38 @@ const VolunteerFormModal = ({ open, handleClose }) => {
     { value: 'other', label: t('gender.other') },
     { value: 'prefer_not_to_say', label: t('gender.prefer_not_to_say') },
   ];
-
+  const placeOptions = [
+    { value: 'andhra_pradesh', label: t('places.states.andhra_pradesh') },
+    { value: 'arunachal_pradesh', label: t('places.states.arunachal_pradesh') },
+    { value: 'assam', label: t('places.states.assam') },
+    { value: 'bihar', label: t('places.states.bihar') },
+    { value: 'chhattisgarh', label: t('places.states.chhattisgarh') },
+    { value: 'goa', label: t('places.states.goa') },
+    { value: 'gujarat', label: t('places.states.gujarat') },
+    { value: 'haryana', label: t('places.states.haryana') },
+    { value: 'himachal_pradesh', label: t('places.states.himachal_pradesh') },
+    { value: 'jharkhand', label: t('places.states.jharkhand') },
+    { value: 'karnataka', label: t('places.states.karnataka') },
+    { value: 'kerala', label: t('places.states.kerala') },
+    { value: 'madhya_pradesh', label: t('places.states.madhya_pradesh') },
+    { value: 'maharashtra', label: t('places.states.maharashtra') },
+    { value: 'manipur', label: t('places.states.manipur') },
+    { value: 'meghalaya', label: t('places.states.meghalaya') },
+    { value: 'mizoram', label: t('places.states.mizoram') },
+    { value: 'nagaland', label: t('places.states.nagaland') },
+    { value: 'odisha', label: t('places.states.odisha') },
+    { value: 'punjab', label: t('places.states.punjab') },
+    { value: 'rajasthan', label: t('places.states.rajasthan') },
+    { value: 'sikkim', label: t('places.states.sikkim') },
+    { value: 'tamil_nadu', label: t('places.states.tamil_nadu') },
+    { value: 'telangana', label: t('places.states.telangana') },
+    { value: 'tripura', label: t('places.states.tripura') },
+    { value: 'uttar_pradesh', label: t('places.states.uttar_pradesh') },
+    { value: 'uttarakhand', label: t('places.states.uttarakhand') },
+    { value: 'west_bengal', label: t('places.states.west_bengal') },
+    { value: 'outside_india', label: t('places.outside_india') }
+  ];
+ 
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
       const response = await axios.post(`${serverUrl}/volunteer`, values);
@@ -94,10 +127,11 @@ const VolunteerFormModal = ({ open, handleClose }) => {
                 error={touched.name && !!errors.name}
                 helperText={touched.name && errors.name}
               />
-              <Field
+             <Field
                 as={TextField}
                 name="place"
                 label={t('register.form.place')}
+                select
                 fullWidth
                 margin="normal"
                 onChange={handleChange}
@@ -105,7 +139,13 @@ const VolunteerFormModal = ({ open, handleClose }) => {
                 value={values.place}
                 error={touched.place && !!errors.place}
                 helperText={touched.place && errors.place}
-              />
+              >
+                {placeOptions.map((option) => (
+                  <MenuItem key={option.value} value={option.value}>
+                    {option.label}
+                  </MenuItem>
+                ))}
+              </Field>
               <Field
                 as={TextField}
                 name="profession"
@@ -137,6 +177,20 @@ const VolunteerFormModal = ({ open, handleClose }) => {
                   </MenuItem>
                 ))}
               </Field>
+              <Field
+                as={TextField}
+                name="contribution"
+                label={t('register.form.contribution')}
+                fullWidth
+                margin="normal"
+                multiline
+                rows={4}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.contribution}
+                error={touched.contribution && !!errors.contribution}
+                helperText={touched.contribution && errors.contribution}
+              />
               <FormControlLabel
                 control={
                   <Checkbox

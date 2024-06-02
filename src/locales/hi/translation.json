@@ -51,6 +51,7 @@
       "profession": "व्यवसाय",
       "gender": "लिंग",
       "consent": "मैं अपने डेटा को देने की सहमति देता हूं",
+      "contribution": "आप किस प्रकार योगदान देना चाहेंगे?",
       "submit": "पंजीकरण करें"
     }
   },
@@ -63,5 +64,37 @@
     "genderqueer": "जेंडरक्वीर",
     "genderfluid": "जेंडरफ्लूइड",
     "agender": "अजेंडर"
+  },"places": {
+    "outside_india": "भारत के बाहर",
+    "states": {
+      "andhra_pradesh": "आंध्र प्रदेश",
+      "arunachal_pradesh": "अरुणाचल प्रदेश",
+      "assam": "असम",
+      "bihar": "बिहार",
+      "chhattisgarh": "छत्तीसगढ़",
+      "goa": "गोवा",
+      "gujarat": "गुजरात",
+      "haryana": "हरियाणा",
+      "himachal_pradesh": "हिमाचल प्रदेश",
+      "jharkhand": "झारखंड",
+      "karnataka": "कर्नाटक",
+      "kerala": "केरल",
+      "madhya_pradesh": "मध्य प्रदेश",
+      "maharashtra": "महाराष्ट्र",
+      "manipur": "मणिपुर",
+      "meghalaya": "मेघालय",
+      "mizoram": "मिजोरम",
+      "nagaland": "नागालैंड",
+      "odisha": "ओडिशा",
+      "punjab": "पंजाब",
+      "rajasthan": "राजस्थान",
+      "sikkim": "सिक्किम",
+      "tamil_nadu": "तमिलनाडु",
+      "telangana": "तेलंगाना",
+      "tripura": "त्रिपुरा",
+      "uttar_pradesh": "उत्तर प्रदेश",
+      "uttarakhand": "उत्तराखंड",
+      "west_bengal": "पश्चिम बंगाल"
+    }
   }
 }

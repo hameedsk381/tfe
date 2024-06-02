@@ -51,6 +51,7 @@
       "profession": "వృత్తి",
       "gender": "లింగం",
       "consent": "నేను నా డేటాను ఇవ్వడానికి అంగీకరిస్తున్నాను",
+      "contribution": "మీరు ఎలా సహాయపడాలనుకుంటున్నారు?",
       "submit": "నమోదు"
     }
   },
@@ -63,5 +64,37 @@
     "genderqueer": "జెండర్‌క్వీర్",
     "genderfluid": "జెండర్‌ఫ్లూయిడ్",
     "agender": "అజెండర్"
+  }, "places": {
+    "outside_india": "భారత దేశం వెలుపల",
+    "states": {
+      "andhra_pradesh": "ఆంధ్ర ప్రదేశ్",
+      "arunachal_pradesh": "అరుణాచల ప్రదేశ్",
+      "assam": "అస్సాం",
+      "bihar": "బీహార్",
+      "chhattisgarh": "ఛత్తీస్గడ్",
+      "goa": "గోవా",
+      "gujarat": "గుజరాత్",
+      "haryana": "హర్యానా",
+      "himachal_pradesh": "హిమాచల్ ప్రదేశ్",
+      "jharkhand": "జార్ఖండ్",
+      "karnataka": "కర్ణాటక",
+      "kerala": "కేరళ",
+      "madhya_pradesh": "మధ్య ప్రదేశ్",
+      "maharashtra": "మహారాష్ట్ర",
+      "manipur": "మణిపూర్",
+      "meghalaya": "మేఘాలయ",
+      "mizoram": "మిజోరం",
+      "nagaland": "నాగాలాండ్",
+      "odisha": "ఒడిషా",
+      "punjab": "పంజాబ్",
+      "rajasthan": "రాజస్థాన్",
+      "sikkim": "సిక్కిం",
+      "tamil_nadu": "తమిళనాడు",
+      "telangana": "తెలంగాణ",
+      "tripura": "త్రిపుర",
+      "uttar_pradesh": "ఉత్తర ప్రదేశ్",
+      "uttarakhand": "ఉత్తరాఖండ్",
+      "west_bengal": "పశ్చిమ బెంగాల్"
+    }
   }
 }
