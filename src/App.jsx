@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import { Box } from '@mui/material';
 
 import LanguageSwitcher from './components/LanguageSwitcher';
+import Registration from './volunteers/Registration';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
       <Route path="/" exact element={<LandingPage/>} />
         <Route path="/create" element={<CreateForm/>} />
+        <Route path="/volunteers/Registration" element={<Registration/>}/>
         <Route path="/form/:id" element={<SubmitForm/>} />
       </Routes>
       <Footer/>

@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <Box sx={{ py: 4, backgroundColor: 'primary.main', color: 'white' }}>
+    <Box sx={{ py: 4, backgroundColor: 'primary.main', color: 'white', mt: 3}}>
       <Container>
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
