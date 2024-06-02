@@ -41,5 +41,26 @@
     "name": "Name",
     "message": "Message",
     "submit": "Send Message"
+  },
+  "register": {
+    "button": "Register as a Volunteer",
+    "form": {
+      "title": "Volunteer Registration",
+      "name": "Name",
+      "place": "Place",
+      "profession": "Profession",
+      "gender": "Gender",
+      "consent": "I consent to give my information to the cooperative",
+      "submit": "Register"
+    }
+  } ,"gender": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "prefer_not_to_say": "Prefer not to say",
+    "non_binary": "Non-binary",
+    "genderqueer": "Genderqueer",
+    "genderfluid": "Genderfluid",
+    "agender": "Agender"
   }
 }

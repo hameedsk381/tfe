@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import Volunteer from './Volunteer';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -26,10 +27,11 @@ const Hero = () => {
         <Typography my={2} variant="h5" component="p" gutterBottom sx={{ fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' } }}>
           {t('hero.subtitle')}
         </Typography>
-        <Button variant="contained" color="primary" href="#contact" sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' } }}>
+        {/* <Button variant="contained" color="primary" href="#contact" sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' } }}>
           {t('hero.button')}
-        </Button>
+        </Button> */}
       </Container>
+      <Volunteer/>
     </Box>
   );
 };
