@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Container, Typography } from '@mui/material';
+import { Button, Container } from '@mui/material';
 import VolunteerFormModal from './VolunteerFormModal';
 import { useTranslation } from 'react-i18next';
 
@@ -10,10 +10,9 @@ const Volunteer = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <Container sx={{my:4}}>
-      
-      <Button variant="contained" color="secondary" onClick={handleOpen}>
-      {t('register.button')}
+    <Container sx={{ my: 4, width: '100%', maxWidth: 'sm', px: 2 }}>
+      <Button variant="contained" color="secondary" onClick={handleOpen} fullWidth>
+        {t('register.button')}
       </Button>
       <VolunteerFormModal open={open} handleClose={handleClose} />
     </Container>
