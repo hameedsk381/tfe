@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 import { useSnackbar } from '../context/SnackbarContext';
 import { serverUrl } from '../apis/apis';
-import axiosInstance from '../apis/axios';
 
 const style = {
   position: 'absolute',
