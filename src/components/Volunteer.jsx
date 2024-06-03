@@ -12,7 +12,7 @@ const Volunteer = () => {
   return (
     <Container sx={{my:4}} >
       
-      <Button variant="contained" color="secondary" onClick={handleOpen}>
+      <Button size='small' variant="contained" color="secondary" onClick={handleOpen}>
       {t('register.button')}
       </Button>
       <VolunteerFormModal open={open} handleClose={handleClose} />

@@ -22,10 +22,10 @@ const Hero = () => {
       }}
     >
       <Container >
-        <Typography my={2} variant="h2" component="h1" gutterBottom sx={{ fontSize: { xs: '1.5rem', sm: '2.5rem', md: '3rem' } }}>
+        <Typography my={2} variant="h2" component="h1" gutterBottom sx={{ fontSize: { xs: '1.5rem', sm: '2.5rem' } }}>
           {t('hero.title')}
         </Typography>
-        <Typography my={2} variant="h5" component="p" gutterBottom sx={{ fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' } }}>
+        <Typography my={2} variant="h5" component="p" gutterBottom sx={{ fontSize: { xs: '1rem', sm: '1.2rem' } }}>
           {t('hero.subtitle')}
         </Typography>
         {/* <Button variant="contained" color="primary" href="#contact" sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' } }}>

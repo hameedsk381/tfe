@@ -18,7 +18,7 @@ const SuggestionFormButton = () => {
 
   return (
     <div>
-      <Button variant="contained" color="primary" onClick={handleOpenSuggestionForm}>
+      <Button size='small' variant="contained" color="primary" onClick={handleOpenSuggestionForm}>
         {t('suggestion.form.open_button')}
       </Button>
       <SuggestionForm open={isSuggestionFormOpen} handleClose={handleCloseSuggestionForm} />
