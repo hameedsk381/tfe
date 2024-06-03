@@ -16,6 +16,9 @@ const LanguageSwitcher = () => {
       <Button onClick={() => changeLanguage('ta')}>தமிழ்</Button>
       <Button onClick={() => changeLanguage('te')}>తెలుగు</Button>
       <Button onClick={() => changeLanguage('kn')}>ಕನ್ನಡ</Button>
+      <Button onClick={() => changeLanguage('ml')}>മലയാളം</Button>
+      <Button onClick={() => changeLanguage('ma')}>मराठी</Button>
+      <Button onClick={() => changeLanguage('bn')}>বাংলা</Button>
     </Box>
   );
 };

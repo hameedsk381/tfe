@@ -35,6 +35,7 @@ const SuggestionForm = ({ open, handleClose }) => {
   const handleSubmit = async (values, { setSubmitting }) => {
     setLoading(true);
     try {
+        console.log(values)
       await axios.post(`${serverUrl}/suggestion`, values);
       showSnackbar('Suggestion submitted successfully!', 'success');
       setSubmitting(false);
