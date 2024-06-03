@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Container } from '@mui/material';
+import { Box, Typography, Button, Container, Paper } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import Volunteer from './Volunteer';
 import SuggestionFormButton from './SuggestionFormButton';
@@ -8,7 +8,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <Box
+    <Paper elevation={10}
       sx={{
         backgroundColor: 'primary.main',
         color: 'white',
@@ -34,7 +34,7 @@ const Hero = () => {
       </Container>
       <Volunteer/>
       <SuggestionFormButton/>
-    </Box>
+    </Paper>
   );
 };
 

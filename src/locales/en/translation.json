@@ -12,8 +12,25 @@
     "button": "Join Our Mission"
   },
   "about": {
-    "title": "Our Mission",
-    "description": "We create tech solutions that truly serve the working class. Our focus is on building apps that provide markets for vulnerable traditional professions and make them inclusive. We believe in technology that empowers everyone, not just the corporates."
+    "title": "About Us",
+    "mission_title": "Our Mission",
+    "mission": {
+      "part1": "Create Livelihood Apps: We build apps that help people stuck in caste-based professions with no value today, providing them with new opportunities and enhancing their livelihoods.",
+      "part2": "Put Technologically Marginalized First: Our apps are designed with their needs in mind, focusing on what they need to improve their work and lives.",
+      "part3": "Ensure Privacy and Security: We make sure our apps are safe to use, protecting the privacy and personal information of the technologically marginalized.",
+      "part4": "Improve Work Standards: Our goal is to help the technologically marginalized do their jobs better, making their work more efficient and improving their overall standards.",
+      "part5": "Inclusive Technology: We aim to create opportunities for people who are often overlooked by big tech companies.",
+      "part6": "Create Digital Markets: We develop platforms where the technologically marginalized can sell their products, expanding their reach and helping them grow their businesses."
+    },
+    "why_join_title": "Why Join Us?",
+    "why_join": {
+      "intro": "Working in a cooperative provides a supportive and collaborative environment that is often missing in corporate culture. Here are some benefits:",
+      "benefit1": "Community Focus: Cooperatives are built around the idea of community and mutual support. This creates a work environment where everyone's contributions are valued.",
+      "benefit2": "Inclusive Decision-Making: In a cooperative, decisions are made democratically, giving everyone a voice. This contrasts with corporate structures where decisions are often top-down.",
+      "benefit3": "Fair Distribution of Profits: Profits in a cooperative are distributed more equitably among members, rather than primarily benefiting top executives.",
+      "benefit4": "Focus on Sustainability: Cooperatives often prioritize sustainable practices and long-term community benefits over short-term profits.",
+      "benefit5": "Work-Life Balance: The cooperative model tends to support better work-life balance, with more flexible working conditions compared to many corporate jobs."
+    }
   },
   "services": {
     "title": "Our Services",
